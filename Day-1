@@ -1,0 +1,91 @@
+HTML:-
+->HyperText Markup Language
+->Helps to create structure of web pages.
+
+How Browsers Read it:-
+->Browsers parse HTML to render content of the page.
+->HTML describes what to display.
+->Tags define elements.
+
+structure of HTML:-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Page</title>
+</head>
+<body>
+    <h1>Hello, World</h1>
+    <p>This is our first webpage.</p>
+</body>
+</html>
+
+<!DOCTYPE html>:-tells about browser
+<html>:-root element
+<head>:-contains metadata,title etc.
+<body>:-Main visible content
+
+Headinga and paragraph:-
+<h1>Main Heading</h1>
+<h2>Sub heading</h2>
+<h3>Smaller heading</h3>
+<p>This is paragraph</p>
+<br>
+<p>Line break above.Horizontal line below:</p>
+<hr>
+
+Tags:-
+<h1> to <h6>:-headings from largest to smallest
+<p>:-paragraph
+<br>:-line break
+<hr>:-horizontal
+
+Text formatting tags:-
+<p>This is <b> bold </b> text.</p>
+<p>This is <i> italic </i> text.</p>
+<p>This is <u> underlined </u> text.</p>
+<p>This is <small <small> smaller </small> text.</p>
+
+Links(Anchor tag:-
+<a href="https://www.google.com" target="_blank">Visit Google</a>
+
+Attributes<:-
+href:-URL to navigate to
+target="_blank":-Opens link in a new tab.
+
+Images:-
+<img src="https://via.placeholder.com/150' alt"Sample Image">
+
+Attributes:-
+src:-Image URL or path.
+alt:-Alternate text
+
+Comment:-
+<!--This is a comment.It won't appear on the page-->
+
+
+<!DOCTYPE html>
+<head>
+    <title>My first HTML</title>
+</head>
+<body>
+    <h1>My First Program</h1>
+    <h2>My First Program</h2>
+    <h3>My First Program</h3>
+    <h4>My First Program</h4>
+    <h5>My First Program</h5>
+    <h6>My First Program</h6>
+
+    <br>
+    <p><b>I'm Durga Prasad</b> and i was pursing my graduation at <i>vel tech high tech engineering college</i> in 2026.</p>
+    <br>
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+    <br>
+    <img src="C:\Users\durga\OneDrive\report\Pictures\Web Developer.jpg" alt="Web Developer" width="500" height="700">
+    <img src="C:\Users\durga\OneDrive\report\Pictures\Durga Prasad.jpg" alt="Software Developer" width="500" height="500">
+    <br>
+    <!--This is durga prasad from java developer-->
+</body>
+</html>
+
+
+
