@@ -1,0 +1,82 @@
+Lists:-
+HTML provides three types of lists to display group of items in structured format:
+1.Unrdered List
+2.Ordered List
+3.Description List
+
+1.Unordered List:-
+   Displays list items with bullet.
+   Example:-
+   <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+   </ul>
+
+2.Ordered List:-
+   Displays list items with numbers.
+   Example:-
+   <ol>
+      <li>HTML<li>
+      <li>CSS<li>
+      <li>JavaScript</li>
+   </ol>
+
+3.Description List:-
+   ->Used for name value pairs.
+   ->Contains <dt> and <dd> (description).
+   Example:-
+   <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+   </dl>
+
+Tables:-
+<table>-contains parent tag of all parent elements.
+<tr>-Table row-represent row in a table.
+<td>-table data-A standard data cell.
+<th>-Table header.
+   ->bold and centered by default.
+   ->used for heading in a table.
+
+Eg:-
+<table border="1">
+  <tr>
+     <th>Name<th>
+     <th>Age</th>
+  </tr>
+  <tr>
+     <td>Durga Prasad</td>
+     <td>20</td>
+  </tr>
+</table>
+
+Forms:-
+    Allows users to submit data.
+<form>-Form Element:-
+   ->Wraps all form controls.
+   ->Attributes-action,method(GET or POST)
+
+   <form action="/submit" method="post">
+       <!--form inputs go here-->
+   </form>
+
+<input>-Input field
+->Various types like text,email,password etc.
+Eg:-
+<input type="text" name="username">
+
+<label>-Label for input:-
+->Used for accessibility and clarity.
+->Should match the input's id.
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+
+Forms elements:-
+Text input:-
+<input type="text" placeholder="your name">
+
+password field:-
+<input type="password">
+
